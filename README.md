@@ -1,7 +1,27 @@
+<!-- Banner / GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="640" alt="coding banner">
+</p>
+
+
 # 📊 Workforce Skill Gap Analytics
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Badnation-137/workforce-skill-gap)
+![GitHub issues](https://img.shields.io/github/issues/Badnation-137/workforce-skill-gap)
+![GitHub forks](https://img.shields.io/github/forks/Badnation-137/workforce-skill-gap?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Badnation-137/workforce-skill-gap?style=social)
+![GitHub license](https://img.shields.io/github/license/Badnation-137/workforce-skill-gap)
+
 
 > **Analisis kesenjangan keterampilan tenaga kerja menggunakan data dari O*NET 30.0**  
 > Proyek portofolio Data Analyst / BI Developer — end-to-end, transparan, dan siap portofolio.
+
+---
+
+## 🚀 Tech Stack
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)
+![Tableau](https://img.shields.io/badge/Visualization-Tableau-yellow?logo=tableau)
 
 ---
 
@@ -75,9 +95,19 @@ Proyek ini dibangun selama 10 hari. Setiap hari didokumentasikan secara terbuka:
 
 ---
 
-## 🙌 Terima Kasih
+## 📊 Dashboard Preview
+(nanti kita taruh screenshot di sini 👇)
+<p align="center">
+  <img src="visual/dashboard/Skill Gap Dashboard.png" width="720" alt="Tableau Dashboard Preview">
+</p>
 
-Proyek ini dibuat untuk menunjukkan kemampuan sebagai **Data Analyst / BI Developer** yang profesional, jujur, dan siap memberikan dampak nyata.
+---
 
-> ✅ **Catatan Transparansi**:  
-> Meski data terbatas (32 skill, 894 pekerjaan), proses analisis tetap profesional dan bisa dikembangkan.
+## 📈 GitHub Stats
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Badnation-137&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Badnation-137&layout=compact&theme=radical)
+
+---
+
+## 📝 License
+Proyek ini berlisensi **MIT** – lihat berkas [LICENSE](LICENSE).
