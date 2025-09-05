@@ -17,7 +17,7 @@
 
 
 > **Workforce skill gap analysis using O*NET 30.0 dataset**  
-> Portfolio project for Data Analyst / BI Developer — end-to-end, transparent, and portfolio-ready.
+> Project for Analyst & Intelligence Developing — end-to-end, transparent, and professional
 
 ---
 
