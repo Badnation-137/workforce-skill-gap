@@ -2,16 +2,17 @@ name: Generate Cool Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:   # ⬅️ ini wajib supaya bisa run manual
+    - cron: "0 0 * * *"   # jalan tiap hari jam 00:00 UTC
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write   # kasih izin nulis ke repo
+
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Generate Snake SVG with Custom Colors
@@ -19,15 +20,18 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/grid-snake-ocean.svg?color_snake=cyan&color_dots=#bfd7ff,#8dbdff,#64a1f4,#4a91f7,#3572ef
-            dist/standalone-snake-synthwave.svg?palette=github-dark&color_snake=#ff57a2&color_dots=#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5
-            dist/grid-snake-light.svg?color_snake=#004AAD&color_dots=#d1d1d1,#b2b2b2,#8f8f8f,#6d6d6d,#4a4a4a
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-ocean.svg?color_snake=cyan&color_dots=#bfd7ff,#8dbdff,#64a1f4,#4a91f7,#3572ef
 
-      - name: Push to repo
+      - name: Push to output branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f dist                # 🔑 pakai -f biar lolos gitignore
-          git commit -m "Generate contribution snake" || exit 0
-          git push
-
+          git checkout --orphan output
+          git reset --hard
+          git clean -fdx
+          cp -r dist/* .
+          git add .
+          git commit -m "Update snake animation"
+          git push -f origin output
