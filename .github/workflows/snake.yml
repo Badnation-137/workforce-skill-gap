@@ -27,6 +27,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist
+          git add -f dist                # 🔑 pakai -f biar lolos gitignore
           git commit -m "Generate contribution snake" || exit 0
           git push
+
