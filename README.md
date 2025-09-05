@@ -1,9 +1,9 @@
-### 🐍 Contribution Snake Animation
+## 🐍 Hello!
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/standalone-snake-synthwave.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/grid-snake-light.svg" />
-  <img alt="github contribution grid snake animation" src="dist/snake-rainbow.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Badnation-137/workforce-skill-gap/output/standalone-snake-synthwave.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Badnation-137/workforce-skill-gap/output/grid-snake-light.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Badnation-137/workforce-skill-gap/output/grid-snake-ocean.svg" />
 </picture>
 
 
