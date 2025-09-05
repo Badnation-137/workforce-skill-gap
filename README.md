@@ -16,8 +16,8 @@
 ![GitHub license](https://img.shields.io/github/license/Badnation-137/workforce-skill-gap)
 
 
-> **Analisis kesenjangan keterampilan tenaga kerja menggunakan data dari O*NET 30.0**  
-> Proyek portofolio Data Analyst / BI Developer — end-to-end, transparan, dan siap portofolio.
+> **Workforce skill gap analysis using O*NET 30.0 dataset**  
+> Portfolio project for Data Analyst / BI Developer — end-to-end, transparent, and portfolio-ready.
 
 ---
 
@@ -28,73 +28,73 @@
 
 ---
 
-## 📌 Tujuan
+## 📌 Objective
 
-Mengidentifikasi **skill gap** — perbedaan antara **kebutuhan keterampilan (Importance)** dan **tingkat kesiapan (Level)** — untuk memberikan rekomendasi pengembangan SDM.
+Identify **skill gaps** — the difference between **skill requirements (Importance)** and **current proficiency level (Level)** — to provide workforce development recommendations.
 
 ---
 
-## 🗂️ Struktur Proyek
+## 🗂️ Project Structure
 workforce-skill-gap/
 ├── dataset/
-│ ├── raw/ # Data mentah dari O*NET
-│ └── processed/ # Data olahan (hasil cleaning & merging)
+│ ├── raw/ # Raw data from O*NET
+│ └── processed/ # Processed data (cleaned & merged)
 ├── analysis/
-│ ├── exploratory/ # Notebook Jupyter (Hari 1–5)
-│ └── advanced/ # Analisis lanjutan (Hari 9)
-├── docs/ # Dokumentasi harian & teknis
-├── sql/ # Query SQL (MySQL)
+│ ├── exploratory/ # Jupyter Notebooks (Day 1–5)
+│ └── advanced/ # Advanced analysis (Day 9)
+├── docs/ # Daily & technical documentation
+├── sql/ # SQL queries (MySQL)
 ├── visuals/
-│ ├── charts/ # Grafik dari Python
-│ └── dashboard/ # Screenshot Tableau
-├── scripts/ # Script Python final
+│ ├── charts/ # Python charts
+│ └── dashboard/ # Tableau screenshots
+├── scripts/ # Final Python scripts
 └── README.md
 
 ---
 
-## 📊 Insight Utama
+## 📊 Key Insights
 
-### 🔍 Temuan Kunci
-1. **Soft Skills adalah Area Utama Skill Gap**
-   - Skill seperti `Judgment and Decision Making`, `Negotiation`, dan `Systems Analysis` memiliki **gap besar** antara kebutuhan dan kesiapan.
-   - Contoh: `Negotiation` memiliki **Importance = 4.3**, tapi **Level = 2.8** → ada kesenjangan besar.
+### 🔍 Findings
+1. **Soft Skills are the Main Skill Gap Area**
+   - Skills like `Judgment and Decision Making`, `Negotiation`, and `Systems Analysis` show a **large gap** between importance and current proficiency.
+   - Example: `Negotiation` → **Importance = 4.3**, **Level = 2.8** → significant gap.
 
-2. **Job Zone 3–5 Punya Banyak Gap**
-   - Pekerjaan menengah-tinggi (misal: teknisi, supervisor, manajer) membutuhkan soft skills tinggi, tapi tingkat keterampilannya belum mencukupi.
+2. **Job Zones 3–5 Show the Largest Gaps**
+   - Mid-to-high level occupations (e.g., technicians, supervisors, managers) require strong soft skills, but current levels are insufficient.
 
-3. **Komunikasi & Koordinasi Dominan**
-   - Skill seperti `Active Listening`, `Speaking`, `Coordination` muncul di hampir semua pekerjaan → menunjukkan pentingnya soft skills.
+3. **Communication & Coordination are Dominant**
+   - Skills like `Active Listening`, `Speaking`, `Coordination` appear across most occupations → highlighting the critical role of soft skills.
 
-### 🎯 Rekomendasi
-- Fokus pelatihan pada **soft skills strategis**:  
+### 🎯 Recommendations
+- Prioritize training on **strategic soft skills**:  
   `Judgment and Decision Making`, `Negotiation`, `Systems Analysis`
-- Targetkan pekerjaan di **Job Zone 3–4** untuk pengembangan SDM.
-- Gunakan data ini untuk program **Learning & Development (L&D)**.
+- Focus on occupations in **Job Zones 3–4** for workforce development programs.
+- Use insights to design **Learning & Development (L&D)** initiatives.
 
 ---
 
-## 📂 Dokumentasi Harian
+## 📂 Daily Documentation
 
-Proyek ini dibangun selama 10 hari. Setiap hari didokumentasikan secara terbuka:
+This project was built over 10 days. Each day is documented openly:
 
-- 📄 [Hari 1: Setup Proyek & Dataset](docs/hari_1_setup_dataset.md)
-- 📄 [Hari 2: Analisis Statistik Dasar](docs/hari_2_analisis_statistik.md)
-- 📄 [Hari 3: Visualisasi Skill Gap](docs/hari_3_visualisasi_gap.md)
-- 📄 [Hari 4: Dashboard KPI](docs/hari_4_dashboard_kpi.md)
-- 📄 [Hari 5: Final Python Script](docs/hari_5_final_script.md)
-- 📄 [Hari 6: Query SQL](docs/hari_6_sql_analysis.md)
-- 📄 [Hari 7: Insight & Publikasi](docs/hari_7_insight_publikasi.md)
-- 📄 [Hari 8: Dashboard Tableau](docs/hari_8_tableau_dashboard.md)
-- 📄 [Hari 9: Struktur & Dokumentasi](docs/hari_9_struktur_dokumentasi.md)
-- 📄 [Hari 10: Finalisasi](docs/hari_10_finalisasi.md)
+- 📄 [Day 1: Project Setup & Dataset](docs/hari_1_setup_dataset.md)
+- 📄 [Day 2: Basic Statistical Analysis](docs/hari_2_analisis_statistik.md)
+- 📄 [Day 3: Skill Gap Visualization](docs/hari_3_visualisasi_gap.md)
+- 📄 [Day 4: KPI Dashboard](docs/hari_4_dashboard_kpi.md)
+- 📄 [Day 5: Final Python Script](docs/hari_5_final_script.md)
+- 📄 [Day 6: SQL Queries](docs/hari_6_sql_analysis.md)
+- 📄 [Day 7: Insights & Publication](docs/hari_7_insight_publikasi.md)
+- 📄 [Day 8: Tableau Dashboard](docs/hari_8_tableau_dashboard.md)
+- 📄 [Day 9: Structure & Documentation](docs/hari_9_struktur_dokumentasi.md)
+- 📄 [Day 10: Finalization](docs/hari_10_finalisasi.md)
 
 ---
 
-## 🔗 Tautan
+## 🔗 Links
 
 - 📁 **GitHub Repository**: [https://github.com/Badnation-137/workforce-skill-gap](https://github.com/Badnation-137/workforce-skill-gap)
 - 📊 **Tableau Public**: [https://public.tableau.com/...](https://public.tableau.com/app/profile/abdul.atallah/vizzes)
-- 💼 **LinkedIn Post**: [Link ke postingan kamu]
+- 💼 **LinkedIn Post**: [Your LinkedIn post link]
 
 ---
 
@@ -105,4 +105,4 @@ Proyek ini dibangun selama 10 hari. Setiap hari didokumentasikan secara terbuka:
 ---
 
 ## 📝 License
-Proyek ini berlisensi **MIT** – lihat berkas [LICENSE](LICENSE).
+This project is licensed under **MIT** – see [LICENSE](LICENSE) for details.
