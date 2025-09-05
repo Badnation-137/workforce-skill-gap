@@ -1,6 +1,11 @@
-## 🐍 Snake Contributions
+### 🐍 Contribution Snake Animation
 
-![Snake animation](https://github.com/Badnation-137/workforce-skill-gap/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/standalone-snake-synthwave.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/grid-snake-light.svg" />
+  <img alt="github contribution grid snake animation" src="dist/snake-rainbow.svg" />
+</picture>
+
 
 # 📊 Workforce Skill Gap Analytics
 
@@ -90,14 +95,6 @@ Proyek ini dibangun selama 10 hari. Setiap hari didokumentasikan secara terbuka:
 - 📁 **GitHub Repository**: [https://github.com/Badnation-137/workforce-skill-gap](https://github.com/Badnation-137/workforce-skill-gap)
 - 📊 **Tableau Public**: [https://public.tableau.com/...](https://public.tableau.com/app/profile/abdul.atallah/vizzes)
 - 💼 **LinkedIn Post**: [Link ke postingan kamu]
-
----
-
-## 📊 Dashboard Preview
-(nanti kita taruh screenshot di sini 👇)
-<p align="center">
-  <img src="visual/dashboard/Skill Gap Dashboard.png" width="720" alt="Tableau Dashboard Preview">
-</p>
 
 ---
 
